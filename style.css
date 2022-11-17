@@ -1,0 +1,207 @@
+body{
+    background-color: rgb(24, 13, 24);
+}
+header{
+    position: fixed;
+    z-index: 1;
+    /*background-color: rgb(80, 23, 117);*/
+    background-color: rgb(104, 0, 57);
+    color: #ced4da;
+}
+.navbar{
+    /*background-color: rgb(80, 23, 117);*/
+    background-color: rgb(104, 0, 57);
+    
+}
+.headline{
+    /*color: #ced4da;
+    color: rgb(223, 169, 180);*/
+    color: rgb(107, 180, 156);
+}
+.brand{
+    color: rgb(223, 169, 180);
+}
+.brand:hover{
+    z-index: -3;
+    color: rgb(145, 212, 190);
+}
+.hline{
+    margin-top: -4%;
+    color: #ced4da;
+    margin-left: 42%;
+    width: 16%;
+}
+.letter-cap{
+    color: #e7ebf0;
+    /*font-weight: 800;*/
+}
+.hd-txt{
+    color: #ced4da;
+}
+.hd-txt:hover{
+    color: rgb(223, 169, 180);
+}
+.home-section{
+    background-color: rgb(15, 8, 15);
+    color: #ced4da;
+    padding-top: 8em;
+}
+.nav-color{
+    background-color: rgb(16, 79, 90);
+}
+#service{
+    background-color: rgb(20, 11, 20);
+}
+.card{
+    background-color: rgb(217, 202, 226);
+    box-shadow: #00000096 0 0 5px 6px;
+    border-radius: 20px;
+}
+.card:hover .icon{
+    
+    transition: 1s;
+    transform: rotate(355deg);
+    color: rgb(104, 0, 57);
+    
+cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.1);  
+}
+
+.card:hover{
+    
+    background-color: rgb(225, 214, 231);
+    transition: 0.5s;
+    border-width: 4px;
+    border-color: rgb(104, 0, 57);
+    border-radius: px;
+    box-shadow: none;
+    /*background-color: rgb(238, 216, 238);*/
+    /*border-color: rgb(80, 23, 117);*/
+    /*box-shadow: rgb(255, 255, 255) 0 0 8 8px;*/
+    /*margin: 3%;*/
+}
+#skills{
+    background-color: rgb(24, 13, 24);
+}
+.skill:hover .icon{
+    transition: 1s;
+    transform: rotateY(360deg);
+    color: purple;
+    
+cursor: pointer;
+}
+
+.skill:hover{
+    transform: scale(1.1);
+    
+}
+
+.skill:hover {
+    background-color: rgb(225, 214, 231);
+    transition: 0.5s;
+    border-width: 4px;
+    border-color: rgb(104, 0, 57);
+    border-radius: px;
+    box-shadow: none;
+
+}
+
+.skillb:hover .icon{
+    
+    transition: 1s;
+    transform: rotateX(360deg);
+    color: purple;
+    
+cursor: pointer;
+}
+
+.skillb:hover{
+    transform: scale(1.1);
+    
+}
+
+.skillb:hover{
+    background-color: rgb(225, 214, 231);
+    transition: 0.5s;
+    border-width: 4px;
+    border-color: rgb(104, 0, 57);
+    border-radius: px;
+    box-shadow: none;
+
+}
+#contact{
+    background-color: rgb(20, 11, 20);
+    
+}
+.contact-title{
+    color: rgba(231, 123, 182, 0.842);
+}
+#contact-form{
+    background-color: #dfdfdf03;
+    border-style: solid;
+    border-color: rgba(104, 0, 57, 0.288);
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px #000000;
+}
+.form-control{
+    background-color: rgb(14, 0, 14);
+    border-color: rgb(53, 10, 53);
+    border-radius: 10px;
+    color: #ced4da;
+}
+.form-control:focus-visible{
+    background-color: rgb(14, 6, 14);
+    border-color: purple;
+    box-shadow: none;
+    color: #bbbec2;
+}
+
+.smbtn{
+    width: 100%;
+    /*background-color: rgb(104, 0, 57);*/
+    background-color:rgb(104, 0, 57);
+    color: aliceblue;
+}
+.smbtn:hover{
+    color: #ced4da;
+    /*background-color: rgb(126, 0, 69);*/
+    background-color: rgb(68, 0, 37);
+}
+.smbtn:active{
+    background-color: rgb(68, 0, 28);
+    color: #bbbec2;
+    box-shadow: none;
+}
+.social{
+    font-size: 2rem;
+    color: rgb(108, 131, 139);
+    padding-inline: 5%;
+}
+.social:hover{
+    transition: 0.5s;
+    color: rgb(0, 165, 110);
+    font-size: 3rem;
+    
+    
+}
+.social:active{
+    color: crimson;
+}
+footer{
+    background-color: rgb(104, 0, 57);
+    color: #bbbec2;
+}
+.ptext{
+    /*color: #bbbec2;*/
+    color: rgb(200, 228, 225);
+}
+.ch{
+    height: 90%;
+}
+/*.cw{
+    width: 90%;
+}*/
