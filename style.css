@@ -187,8 +187,6 @@ cursor: pointer;
     transition: 0.5s;
     color: rgb(0, 165, 110);
     transform: scale(1.5);
-    
-    
 }
 .social:hover{
     margin-inline: 0.3%;
