@@ -138,6 +138,7 @@ cursor: pointer;
 }
 .contact-title{
     color: rgba(231, 123, 182, 0.842);
+    font-size: 1.4rem;
 }
 #contact-form{
     background-color: #dfdfdf03;
